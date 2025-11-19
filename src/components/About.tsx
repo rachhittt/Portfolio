@@ -79,6 +79,18 @@ export default function About() {
               ))}
             </div>
           </motion.div>
+
+          {/* Birthday */}
+          <motion.div
+            initial={{ opacity: 0, x: 20 }}
+            whileInView={{ opacity: 1, x: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.6, delay: 0.4 }}
+            className="p-4 bg-orange-100 dark:bg-orange-900/30 rounded-lg border border-orange-200 dark:border-orange-800"
+          >
+            <h3 className="text-lg font-bold text-gray-900 dark:text-white mb-2">Birthday</h3>
+            <p className="text-orange-700 dark:text-orange-300 font-semibold">20th October 2004</p>
+          </motion.div>
         </div>
       </div>
     </Section>

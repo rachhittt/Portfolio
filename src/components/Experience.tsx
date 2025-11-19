@@ -30,22 +30,34 @@ export default function Experience() {
     {
       title: 'AUGSD Coordinator',
       company: 'BITS Pilani',
-      duration: 'Jun 2025 – Present',
-      description: ['Event coordination and student engagement'],
+      duration: 'June 2025 – Present',
+      description: [
+        'Collaborate with the academic administration and student body to streamline the functioning of the Academic Undergraduate Studies Division.',
+        'Assist with course registration workflows and administrative processes.',
+        'Collect and communicate student concerns, queries, and feedback to the academic administration.',
+      ],
       type: 'responsibility' as const,
     },
     {
       title: 'SARC Events Head',
       company: 'BITS Pilani',
-      duration: 'Jul 2025 – Present',
-      description: ['Event planning and execution for SARC'],
+      duration: 'July 2025 – Present',
+      description: [
+        'Lead planning and execution of alumni engagement events.',
+        'Manage logistics, communication, and coordination for alumni meets, speaker sessions, and reunion-based activities.',
+        'Strengthen and maintain an active alumni-student network through recurring engagement initiatives.',
+      ],
       type: 'responsibility' as const,
     },
     {
-      title: 'SAFL Club – Joint Secretary',
+      title: 'Joint Secretary — Sanskrit and Foreign Languages (SAFL) Club',
       company: 'BITS Pilani',
-      duration: 'Jul 2024 – Jun 2025',
-      description: ['Club coordination and event management'],
+      duration: 'July 2024 – June 2025',
+      description: [
+        'Organized and managed diverse cultural and entertainment-focused events.',
+        'Examples include anime screenings, mythology and K-pop quizzes, and a student club trip to Comic-Con.',
+        'Contributed to engagement, participation, and club-level execution of creative student activities.',
+      ],
       type: 'responsibility' as const,
     },
   ];
