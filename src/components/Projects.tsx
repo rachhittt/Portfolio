@@ -18,6 +18,16 @@ export default function Projects() {
   const projects: Project[] = [
     {
       id: '1',
+      title: 'Music Visualizer',
+      description:
+        'Interactive music visualizer with dynamic audio-reactive animations. Displays real-time frequency spectrum visualization synchronized with audio playback. Smooth, responsive design with immersive visual effects.',
+      tech: ['JavaScript', 'Canvas API', 'Web Audio API', 'HTML', 'CSS'],
+      image: 'https://i.imgur.com/7XvZK5m.png',
+      githubUrl: 'https://github.com/rachhittt/music-visualizer',
+      demoUrl: 'https://music-visualizzer.vercel.app/',
+    },
+    {
+      id: '2',
       title: 'Anime Merchandise E-Commerce',
       description:
         'Full-featured PHP-based e-commerce platform with authentication, cart management, product filters, and dynamic content. Fully responsive with video support.',
@@ -27,7 +37,7 @@ export default function Projects() {
       demoUrl: '#',
     },
     {
-      id: '2',
+      id: '3',
       title: 'URL Shortener System (Docquity)',
       description:
         'Backend redirection logic and service architecture. Worked on API routing, debugging, and unit testing as part of a collaborative team during internship.',
