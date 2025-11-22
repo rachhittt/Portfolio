@@ -22,7 +22,7 @@ export default function Projects() {
       description:
         'Interactive music visualizer with dynamic audio-reactive animations. Displays real-time frequency spectrum visualization synchronized with audio playback. Smooth, responsive design with immersive visual effects.',
       tech: ['JavaScript', 'Canvas API', 'Web Audio API', 'HTML', 'CSS'],
-      image: 'https://i.imgur.com/7XvZK5m.png',
+      image: '/music-visualizer.png',
       githubUrl: 'https://github.com/rachhittt/music-visualizer',
       demoUrl: 'https://music-visualizzer.vercel.app/',
     },
