@@ -38,13 +38,13 @@ export default function Projects() {
     },
     {
       id: '3',
-      title: 'URL Shortener System (Docquity)',
+      title: 'Docquity - Universal URL Shortener',
       description:
-        'Backend redirection logic and service architecture. Worked on API routing, debugging, and unit testing as part of a collaborative team during internship.',
-      tech: ['Backend', 'API Routing', 'Unit Testing'],
+        'A scalable, privacy-compliant URL shortener and universal linking platform. Features custom/random URL generation, deep linking for iOS/Android, server-side analytics with GDPR compliance, and sub-100ms redirection latency using Redis caching.',
+      tech: ['React', 'Node.js', 'Express', 'PostgreSQL', 'Redis', 'Kubernetes', 'AWS'],
       image: 'https://acv.vc/wp-content/uploads/2023/03/logos-47.png',
-      githubUrl: '#',
-      demoUrl: '#',
+      githubUrl: 'https://github.com/rachhittt/Docquity',
+      demoUrl: 'https://github.com/rachhittt/Docquity',
     },
   ];
 
