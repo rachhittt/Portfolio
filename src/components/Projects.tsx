@@ -46,6 +46,16 @@ export default function Projects() {
       githubUrl: 'https://github.com/rachhittt/Docquity',
       demoUrl: 'https://github.com/rachhittt/Docquity',
     },
+    {
+      id: '4',
+      title: 'Underground Mining DBMS',
+      description:
+        'Comprehensive web application for managing underground mining operations. Features 25+ routes, 19 database models, and 7 advanced analytics dashboards tracking safety incidents, equipment performance, worker utilization, training requirements, and risk assessment.',
+      tech: ['Flask', 'Python', 'SQLite', 'PL/SQL', 'HTML', 'CSS', 'JavaScript'],
+      image: '/mining-dbms.png',
+      githubUrl: 'https://github.com/rachhittt/Underground-Mining_DBMS-Project',
+      demoUrl: 'https://github.com/rachhittt/Underground-Mining_DBMS-Project',
+    },
   ];
 
   return (
